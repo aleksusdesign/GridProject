@@ -7,9 +7,7 @@ import org.testng.annotations.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import pages.CheckoutPage;
-import pages.HomePage;
-import pages.ProductComparePage;
+import pages.*;
 import utils.CapabilityFactory;
 
 public class BaseTest {
@@ -46,5 +44,7 @@ public class BaseTest {
 
     public ProductComparePage getComparePage(){return new ProductComparePage(getDriver());}
     public CheckoutPage getCheckoutPage(){return new CheckoutPage(getDriver());}
+    public AppleStorePage getAppleStorePage(){return new AppleStorePage(getDriver());}
+    public IphonePage getIphonePage(){return new IphonePage(getDriver());}
 
 }

@@ -61,16 +61,28 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//button[@class='order-now']")
     private WebElement checkoutButton;
 
+    @FindBy(xpath = "//a[@title='Apple'][@class='item__link']")
+    private WebElement appleStoreButton;
+
+
+    @FindBy(xpath = "//p[@class='header-catalog-button__text']")
+    private WebElement catalogButton;
+
     @FindBy(xpath = "//button[contains(@class,'buy-button')]")
     private List<WebElement> listOfBuyButtons;
 
     @FindBy(xpath = "//div[@class = 'product__item']")
     private List<WebElement> listOfProductItemsInCart;
 
+
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
+    public void clickOnAppleStoreButton() {
+        appleStoreButton.click();
+    }
 
     public void isHeaderVisible() {
         header.isDisplayed();
@@ -137,14 +149,13 @@ public class HomePage extends BasePage {
 
     public void scrollToListOfProducts(){
         scrollIntoViewElement(productsList);
-        implicitWait(30);
     }
 
     public void clickFirstBuyButton(){
         listOfBuyButtons.get(0).click();
     }
 
-    public void clickCheckputButton(){
+    public void clickCheckoutButton(){
         checkoutButton.click();
     }
 
@@ -160,5 +171,9 @@ public class HomePage extends BasePage {
         return checkoutButton.isDisplayed();
     }
 
+
+    public void clickOnCatalogButton() {
+        catalogButton.click();
+    }
 
 }

@@ -8,6 +8,7 @@
                 <methods>
                     <include name="checkMainComponentsOnHomePage"/>
                     <include name="checkAddToCart"/>
+                    <include name="checkRangePrice"/>
                 </methods>
             </class>
         </classes>
@@ -20,6 +21,7 @@
                 <methods>
                     <include name="checkMainComponentsOnHomePage"/>
                     <include name="checkAddToCart"/>
+                    <include name="checkRangePrice"/>
                 </methods>
             </class>
         </classes>
