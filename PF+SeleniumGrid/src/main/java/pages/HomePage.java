@@ -1,11 +1,14 @@
 package pages;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class HomePage extends BasePage {
+
+    private static final long DEFAULT_WAITING_TIME = 60;
 
     @FindBy(xpath = "//div[@class='main-header-wrapper']")
     private WebElement header;
@@ -46,6 +49,23 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[@class='v-modal__cmp v-modal__cmp--is-center v-modal__cmp--md cart-popup checkout_modal']")
     private WebElement shoppingCartPopup;
 
+    @FindBy(xpath = "//div[@class='compare']")
+    private List<WebElement> listCompareButton;
+
+    @FindBy(xpath = "//div[@class='v-price-box__cur']")
+    private WebElement productsList;
+
+    @FindBy(xpath = "//div[contains(@class, 'checkout_modal')]")
+    private WebElement cartPopup;
+
+    @FindBy(xpath = "//button[@class='order-now']")
+    private WebElement checkoutButton;
+
+    @FindBy(xpath = "//button[contains(@class,'buy-button')]")
+    private List<WebElement> listOfBuyButtons;
+
+    @FindBy(xpath = "//div[@class = 'product__item']")
+    private List<WebElement> listOfProductItemsInCart;
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -104,5 +124,41 @@ public class HomePage extends BasePage {
     public void clickCartButton() {
         cartIcon.click();
     }
+
+    public void generateCompareTwoItemsButton(){
+        listCompareButton.get(1).click();
+        waitForPageLoadComplete(DEFAULT_WAITING_TIME);
+        implicitWait(30);
+        listCompareButton.get(2).click();
+        waitForPageLoadComplete(DEFAULT_WAITING_TIME);
+        implicitWait(30);
+        listCompareButton.get(1).click();
+    }
+
+    public void scrollToListOfProducts(){
+        scrollIntoViewElement(productsList);
+        implicitWait(30);
+    }
+
+    public void clickFirstBuyButton(){
+        listOfBuyButtons.get(0).click();
+    }
+
+    public void clickCheckputButton(){
+        checkoutButton.click();
+    }
+
+    public WebElement getCartPopup(){
+        return cartPopup;
+    }
+
+    public int getSizeOfListOfProductItemsInCart(){
+        return listOfProductItemsInCart.size();
+    }
+
+    public boolean isCheckoutButtonVisible(){
+        return checkoutButton.isDisplayed();
+    }
+
 
 }

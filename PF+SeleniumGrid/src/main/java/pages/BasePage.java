@@ -23,12 +23,16 @@ public class BasePage {
             webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
 
-    public void implicitWait(long timeToWait) {
-        driver.manage().timeouts().implicitlyWait(timeToWait, TimeUnit.SECONDS);
-    }
-
     public void waitVisibilityOfElement(long timeToWait, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, timeToWait);
         wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public void scrollIntoViewElement(WebElement element){
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public void implicitWait(long timeToWait) {
+        driver.manage().timeouts().implicitlyWait(timeToWait, TimeUnit.SECONDS);
     }
 }
