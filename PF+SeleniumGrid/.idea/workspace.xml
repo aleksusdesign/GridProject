@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="409269dd-5c40-4ee5-a76d-1d79b4ec955b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i8krCLEm1a1mas5sX83aHmakKA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anastasiia_Rudik\Desktop\PF+SeleniumGrid\src\test\java\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/QA_External_Courses/Automation/PF+SeleniumGrid/testng.xml">
+    <configuration name="C:/Users/Anastasiia_Rudik/Desktop/PF+SeleniumGrid/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Grid" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/QA_External_Courses/Automation/PF+SeleniumGrid/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PF+SeleniumGrid" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.checkAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Grid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTests" />
+      <option name="METHOD_NAME" value="checkAddToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.checkMainComponentsOnHomePage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PF+SeleniumGrid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTests" />
+      <option name="METHOD_NAME" value="checkMainComponentsOnHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTests.checkMainComponentsOnHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Grid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTests" />
+      <option name="METHOD_NAME" value="checkMainComponentsOnHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/QA_External_Courses/Automation/PF+SeleniumGrid/testng.xml" />
+        <item itemvalue="TestNG.SmokeTests.checkMainComponentsOnHomePage (1)" />
+        <item itemvalue="TestNG.C:/Users/Anastasiia_Rudik/Desktop/PF+SeleniumGrid/testng.xml" />
+        <item itemvalue="TestNG.SmokeTests.checkAddToCart" />
+        <item itemvalue="TestNG.SmokeTests.checkMainComponentsOnHomePage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="409269dd-5c40-4ee5-a76d-1d79b4ec955b" name="Default Changelist" comment="" />
+      <created>1601296802715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601296802715</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614893007011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1614893007011" />
+    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1614893008249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1614893008249" />
+    <state width="1483" height="94" key="GridCell.Tab.0.bottom" timestamp="1614968208636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="94" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614968208636" />
+    <state width="1483" height="94" key="GridCell.Tab.0.center" timestamp="1614968208636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="94" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614968208636" />
+    <state width="1483" height="94" key="GridCell.Tab.0.left" timestamp="1614968208636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="94" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614968208636" />
+    <state width="1483" height="94" key="GridCell.Tab.0.right" timestamp="1614968208636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="94" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614968208636" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1614964155894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614964155894" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Grid$D__QA_External_Courses_Automation_PF_SeleniumGrid_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1614896554865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
